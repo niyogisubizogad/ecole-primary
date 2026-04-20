@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 🔷 Navbar -->
+<header>
+  <nav class="navbar">
+    <h2 class="logo">MySchool</h2>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="#apply">Apply</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </nav>
+</header>
+
+<!-- 🔷 Hero -->
+<section class="hero">
+  <h1>Apply to Our School Today</h1>
+  <p>Join a community of excellence and innovation.</p>
+  <a href="#apply" class="btn">Apply Now</a>
+</section>
+
+<!-- 🔷 Apply Section -->
+<section id="apply" class="section">
+  <h2>Application Form</h2>
+  <form id="applicationForm">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="text" placeholder="Previous School" required>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- 🔷 News -->
+<section id="news" class="section">
+  <h2>Latest News</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>New Semester Begins</h3>
+      <p>Our new academic year starts next month.</p>
+    </div>
+    <div class="card">
+      <h3>Science Fair</h3>
+      <p>Students showcase innovative projects.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 🔷 About -->
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <p>We are committed to providing quality education and empowering students.</p>
+</section>
+
+<!-- 🔷 Footer -->
+<footer>
+  <p>© 2026 MySchool. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
